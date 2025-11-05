@@ -30,6 +30,7 @@ func MustLoad() (*Config) {
 		log.Fatal("unable to load .env file values")		
 	}
 
+	// CONFIG_PATH=/app/local.yaml
 	configPath := os.Getenv("CONFIG_PATH")
 	fmt.Println(configPath)
 
