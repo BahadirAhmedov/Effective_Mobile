@@ -25,6 +25,7 @@ vendor/
 .DS_Store
 Thumbs.db
 
+locla.env
 .env
 *.env
 
